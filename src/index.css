@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2 {
+    color: white;
+}
+
+.my-input input, .my-input textarea {
+    font-size: 18px;
+}
+
+.my-input form input{
+    border-radius: 20px;
+    border: 2px solid gray;
+    padding: 10px 30px;
+    width: 96.7%;
+    position: fixed;
+    bottom: 0;
+}
+
+.message-list {
+    margin: 125px 20px 100px 20px;
+}
+
+.rce-mbox-text {
+    padding: 0 10px 10px 0;
+    font-size: 16px !important;
+}
+
+.rce-mbox-right {
+    background: #E96C43 !important;
+    color: white;
+}
+
+.rce-mbox-right svg {
+    fill: #E96C43;
+}
+
+.navbar {
+    background: #479C5B !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.rce-mbox-title {
+    font-size: 18px !important;
+}
+
+.rce-mbox-right .rce-mbox-title {
+    color: rgba(0, 0, 0, 0.7);
+}
